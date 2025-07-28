@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+/* section-1 hero-banner */
+
+.hero-banner {
+    background-image: url("https://www.andrewshoemaker.com/images/xl/kaanapali-nights-sunset-palm-trees.jpg");
+    gap: 20px;
+    align-items: center;
+    justify-content: center; 
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #1d3557;
+    color: white;
+    padding: 5px 12px;
+}
+
+.hero-banner p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 350px;
+  border-radius: 10px;
+  background-color: #457b9d;
+  color: white;
+  padding: 5px 15px;
+}
+
+/* section-2 */
+
+.activities-banner {
+    background-color: #d8e1d6;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.activity {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h3 {
+    width:190px;
+}
+
+.activity p {
+    width: 190px;
+}
+
+
+/* section-3 guide */
+
+.tour-guide {
+    height: 200px;
+    width: 400px;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color:#A8DADC;
+    
+    border-radius: 10px;
+    margin: 300px auto;
+    border-bottom: 10px solid #d8cefe;
+    font-family: 'Dancing Script', Arial, sans-serif; */
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
