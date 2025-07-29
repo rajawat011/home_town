@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', 'Arial Narrow', Arial, sans-serif;
 }
 
 section {
@@ -50,10 +55,14 @@ h1 {
 
 
 .activities-banner {
-    background-color: #d8e1d6;
+    background-color: #B0C9B8;
     align-items: center;
     justify-content: center;
     gap: 54px;
+}
+
+.activities-banner:hover {
+     border: 5px solid palevioletred;
 }
 
 h2 {
@@ -91,16 +100,63 @@ h3 {
 }
 
 
-/* section-3 guide */
+/* section3 view */
+
+.view {
+    background-color: #D3B5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.view:hover {
+     border: 5px solid palevioletred;
+}
+
+.places {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.sun-point {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.sun-point p {
+    width: 300px;
+}
+
+.sunset,
+.sunrise {
+    height: 200px;
+    width: 200px;
+}
+
+
+/* section-4 guide */
+
+.hero-banner:hover {
+    border: 5px solid palevioletred;
+}
 
 .guide {
     background-color:whitesmoke ;
 }
 
+.guide:hover {
+     border: 5px solid palevioletred;
+}
+
 .tour-guide {
     height: 300px;
     width: 400px;
-    background-color: #a8dadc;
+    background-color:#D8A7B1;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
@@ -117,7 +173,7 @@ h3 {
 }
 
 
-/* section1 of 3 profile */
+/* section1 of 4 profile */
 
 
 
